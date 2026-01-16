@@ -4,3 +4,49 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    height: 80px;
+    background-color: rgb(50, 48, 48);
+    flex-shrink: 0;
+}
+footer {
+    height: 80px;
+    background-color: grey;
+    flex-shrink: 0;
+}
+
+.central-wrapper {
+    flex-grow: 1;
+    background-color: blue;
+    display: flex;
+    overflow: auto;
+
+    .side-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100px;
+        background-color: rgb(16, 17, 31);
+        flex-shrink: 0;
+        
+    }
+
+    main{
+        flex-grow: 1;
+        overflow-y: auto;
+        background-color: rgb(50, 48, 48);
+    }
+    
+    img {
+        width: 30px;
+        border-radius: 1rem
+        
+        
+    };
+}
