@@ -13,7 +13,7 @@ body {
 .wrapper {
     flex-grow: 1;
     display: flex;
-    background-color: blue;
+    background-color: rgb(41, 39, 39);
 
     .left-side {
         width: 80px;
@@ -32,6 +32,45 @@ body {
     .right-side {
         flex-grow: 1;
         overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        
+
+        header {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+
+            .header-btns {
+                padding-top: 10px;
+                display: flex;
+                gap: 30px;
+                
+                
+            }
+
+            button {
+                background-color: grey;
+                border: solid grey;
+                border-radius: 1rem;
+                color: white;
+
+                span {
+                    font-size: 12px;
+                }
+                
+            }
+
+            .person-btn {
+                  padding: 0 40px ;  
+
+                }
+            
+
+        }
     }
 }
 
