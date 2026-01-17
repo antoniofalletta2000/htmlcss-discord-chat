@@ -79,6 +79,44 @@ body {
             
 
         }
+
+        main{
+            padding-top: 10px;
+            
+        
+            div{
+                display: flex;
+                justify-content: space-between;
+                
+                
+
+                 img {
+                width: 30px;
+                border-radius: 1rem;
+                margin-top: 28px ;
+                
+            }
+            .name {
+                font-size: 13px;
+                color: white;
+                padding-left: 5px;
+                padding-top: 15px;
+                translate: 5% 20%;
+                
+            }
+            .mex{
+                font-size: 12px;
+                
+            }
+            .time {
+                margin-left: 15rem;
+                margin-top: 25px;
+                color: white;
+                font-size: 10px;
+            }
+            }
+
+        }
     }
 }
 
@@ -88,4 +126,14 @@ footer {
     height: 80px;
     background-color: grey;
     flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+
+    .profile{
+        width: 20px;
+        border-radius: 1rem;
+    }
 }
