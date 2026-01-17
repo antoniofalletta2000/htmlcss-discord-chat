@@ -8,6 +8,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 512px;
 }
 
 .wrapper {
@@ -23,10 +24,11 @@ body {
         flex-direction: column;
         gap: 10px;
         align-items: center;
+        padding-top: 15px;
 
         img{
             width:30px;
-            border-radius: 1rem;
+            border-radius: 0.5rem;
         }
     }
     .right-side {
@@ -36,19 +38,25 @@ body {
         flex-direction: column;
         margin: 10px;
         
+        
 
         header {
             color: white;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            padding-top: 10px;
+
+            .messages {
+                display: flex;
+                justify-content: flex-start;
+            }
+            
             
 
             .header-btns {
                 padding-top: 10px;
                 display: flex;
-                gap: 30px;
-                
+                gap: 10px;
                 
             }
 
@@ -65,7 +73,7 @@ body {
             }
 
             .person-btn {
-                  padding: 0 40px ;  
+                  padding: 0 60px ;  
 
                 }
             
